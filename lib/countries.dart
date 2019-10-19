@@ -21,13 +21,13 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "AG",
-    phoneCode: "1-268",
+    phoneCode: "1268",
     name: "Antigua and Barbuda",
     iso3Code: "ATG",
   ),
   Country(
     isoCode: "AI",
-    phoneCode: "1-264",
+    phoneCode: "1264",
     name: "Anguilla",
     iso3Code: "AIA",
   ),
@@ -69,7 +69,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "AS",
-    phoneCode: "1-684",
+    phoneCode: "1684",
     name: "American Samoa",
     iso3Code: "ASM",
   ),
@@ -111,7 +111,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "BB",
-    phoneCode: "1-246",
+    phoneCode: "1246",
     name: "Barbados",
     iso3Code: "BRB",
   ),
@@ -165,7 +165,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "BM",
-    phoneCode: "1-441",
+    phoneCode: "1441",
     name: "Bermuda",
     iso3Code: "BMU",
   ),
@@ -195,7 +195,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "BS",
-    phoneCode: "1-242",
+    phoneCode: "1242",
     name: "Bahamas",
     iso3Code: "BHS",
   ),
@@ -363,13 +363,13 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "DM",
-    phoneCode: "1-767",
+    phoneCode: "1767",
     name: "Dominica",
     iso3Code: "DMA",
   ),
   Country(
     isoCode: "DO",
-    phoneCode: "1-849",
+    phoneCode: "1849",
     name: "Dominican Republic",
     iso3Code: "DOM",
   ),
@@ -495,7 +495,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "GD",
-    phoneCode: "1-473",
+    phoneCode: "1473",
     name: "Grenada",
     iso3Code: "GRD",
   ),
@@ -513,7 +513,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "GG",
-    phoneCode: "44-1481",
+    phoneCode: "441481",
     name: "Guernsey",
     iso3Code: "GGY",
   ),
@@ -579,7 +579,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "GU",
-    phoneCode: "1-671",
+    phoneCode: "1671",
     name: "Guam",
     iso3Code: "GUM",
   ),
@@ -651,7 +651,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "IM",
-    phoneCode: "44-1624",
+    phoneCode: "441624",
     name: "Isle of Man",
     iso3Code: "IMN",
   ),
@@ -693,13 +693,13 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "JE",
-    phoneCode: "44-1534",
+    phoneCode: "441534",
     name: "Jersey",
     iso3Code: "JEY",
   ),
   Country(
     isoCode: "JM",
-    phoneCode: "1-876",
+    phoneCode: "1876",
     name: "Jamaica",
     iso3Code: "JAM",
   ),
@@ -747,7 +747,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "KN",
-    phoneCode: "1-869",
+    phoneCode: "1869",
     name: "Saint Kitts and Nevis",
     iso3Code: "KNA",
   ),
@@ -771,7 +771,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "KY",
-    phoneCode: "1-345",
+    phoneCode: "1345",
     name: "Cayman Islands",
     iso3Code: "CYM",
   ),
@@ -795,7 +795,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "LC",
-    phoneCode: "1-758",
+    phoneCode: "1758",
     name: "Saint Lucia",
     iso3Code: "LCA",
   ),
@@ -921,7 +921,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "MP",
-    phoneCode: "1-670",
+    phoneCode: "1670",
     name: "Northern Mariana Islands",
     iso3Code: "MNP",
   ),
@@ -939,7 +939,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "MS",
-    phoneCode: "1-664",
+    phoneCode: "1664",
     name: "Montserrat",
     iso3Code: "MSR",
   ),
@@ -1119,7 +1119,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "PR",
-    phoneCode: "1-787",
+    phoneCode: "1787",
     name: "Puerto Rico",
     iso3Code: "PRI",
   ),
@@ -1293,7 +1293,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "SX",
-    phoneCode: "1-721",
+    phoneCode: "1721",
     name: "Sint Maarten (Dutch part)",
     iso3Code: "SXM",
   ),
@@ -1311,7 +1311,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "TC",
-    phoneCode: "1-649",
+    phoneCode: "1649",
     name: "Turks and Caicos Islands",
     iso3Code: "TCA",
   ),
@@ -1383,7 +1383,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "TT",
-    phoneCode: "1-868",
+    phoneCode: "1868",
     name: "Trinidad and Tobago",
     iso3Code: "TTO",
   ),
@@ -1449,7 +1449,7 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "VC",
-    phoneCode: "1-784",
+    phoneCode: "1784",
     name: "Saint Vincent and the Grenadines",
     iso3Code: "VCT",
   ),
@@ -1461,13 +1461,13 @@ final List<Country> countryList = [
   ),
   Country(
     isoCode: "VG",
-    phoneCode: "1-284",
+    phoneCode: "1284",
     name: "Virgin Islands, British",
     iso3Code: "VGB",
   ),
   Country(
     isoCode: "VI",
-    phoneCode: "1-340",
+    phoneCode: "1340",
     name: "Virgin Islands, U.S.",
     iso3Code: "VIR",
   ),
