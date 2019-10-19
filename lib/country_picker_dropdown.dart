@@ -11,7 +11,10 @@ class CountryPickerDropdown extends StatefulWidget {
     this.itemBuilder,
     this.initialValue,
     this.onValuePicked,
+    this.isExpanded,
   });
+
+  final bool isExpanded;
 
   /// Filters the available country list
   final ItemFilter itemFilter;
@@ -46,7 +49,7 @@ class _CountryPickerDropdownState extends State<CountryPickerDropdown> {
     if (widget.initialValue != null) {
       try {
         _selectedCountry = _countries.firstWhere(
-          (country) => country.isoCode == widget.initialValue.toUpperCase(),
+              (country) => country.isoCode == widget.initialValue.toUpperCase(),
         );
       } catch (error) {
         throw Exception(
@@ -62,7 +65,8 @@ class _CountryPickerDropdownState extends State<CountryPickerDropdown> {
   @override
   Widget build(BuildContext context) {
     List<DropdownMenuItem<Country>> items = _countries
-        .map((country) => DropdownMenuItem<Country>(
+        .map((country) =>
+        DropdownMenuItem<Country>(
             value: country,
             child: widget.itemBuilder != null
                 ? widget.itemBuilder(country)
@@ -71,9 +75,10 @@ class _CountryPickerDropdownState extends State<CountryPickerDropdown> {
 
     return Row(
       children: <Widget>[
-        DropdownButtonHideUnderline(
+        Expanded(child: DropdownButtonHideUnderline(
           child: DropdownButton<Country>(
             isDense: true,
+            isExpanded: widget.isExpanded,
             onChanged: (value) {
               setState(() {
                 _selectedCountry = value;
@@ -83,7 +88,7 @@ class _CountryPickerDropdownState extends State<CountryPickerDropdown> {
             items: items,
             value: _selectedCountry,
           ),
-        ),
+        ),),
       ],
     );
   }
